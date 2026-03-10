@@ -1,0 +1,144 @@
+competitor_key: micro_focus_sentinel
+generated_date: "2025-12-01"
+
+overview:
+  log360: >
+    ManageEngine Log360 is a unified SIEM solution with integrated DLP,
+    CASB, and SOAR capabilities. It offers real-time log management,
+    AD auditing, cloud security, and compliance reporting in a single console.
+  competitor: >
+    Micro Focus Sentinel is a scalable SIEM platform offering real-time
+    threat detection, compliance monitoring, and advanced analytics.
+    Now part of OpenText after the Micro Focus acquisition.
+
+feature_comparison:
+  - category: "Core SIEM"
+    features:
+      - name: "Real-time Event Correlation"
+        log360: { supported: true, detail: "Pre-built & custom correlation rules" }
+        competitor: { supported: true, detail: "Correlation engine with pattern matching" }
+      - name: "Log Collection & Parsing"
+        log360: { supported: true, detail: "750+ log sources out of the box" }
+        competitor: { supported: true, detail: "400+ supported log sources" }
+      - name: "Custom Dashboard"
+        log360: { supported: true, detail: "Drag-and-drop dashboard builder" }
+        competitor: { supported: true, detail: "Dashboard with widget library" }
+      - name: "Threat Intelligence Integration"
+        log360: { supported: true, detail: "Built-in threat feeds + STIX/TAXII" }
+        competitor: { supported: true, detail: "Threat intelligence framework" }
+  - category: "Advanced Threat Detection"
+    features:
+      - name: "UEBA (User & Entity Behavior Analytics)"
+        log360: { supported: true, detail: "ML-based anomaly detection with risk scoring" }
+        competitor: { supported: true, detail: "Behavioral analytics module" }
+      - name: "MITRE ATT&CK Mapping"
+        log360: { supported: true, detail: "Native ATT&CK framework mapping" }
+        competitor: { supported: false, detail: "Limited mapping capabilities" }
+      - name: "Incident Workflow & SOAR"
+        log360: { supported: true, detail: "Built-in SOAR with automated response" }
+        competitor: { supported: true, detail: "Basic workflow automation" }
+  - category: "Compliance & Reporting"
+    features:
+      - name: "Pre-built Compliance Reports"
+        log360: { supported: true, detail: "PCI DSS, HIPAA, SOX, GDPR, FISMA, ISO 27001" }
+        competitor: { supported: true, detail: "PCI DSS, HIPAA, SOX, GDPR" }
+      - name: "Audit-Ready Reports"
+        log360: { supported: true, detail: "1000+ pre-built report templates" }
+        competitor: { supported: true, detail: "Standard report templates" }
+  - category: "Data Security"
+    features:
+      - name: "Integrated DLP"
+        log360: { supported: true, detail: "Built-in data leak prevention" }
+        competitor: { supported: false, detail: "Requires third-party integration" }
+      - name: "CASB (Cloud Access Security Broker)"
+        log360: { supported: true, detail: "Native CASB for shadow IT detection" }
+        competitor: { supported: false, detail: "Not available" }
+      - name: "Active Directory Auditing"
+        log360: { supported: true, detail: "Comprehensive AD change auditing" }
+        competitor: { supported: false, detail: "Basic AD log collection only" }
+  - category: "Deployment & Scalability"
+    features:
+      - name: "On-Premises Deployment"
+        log360: { supported: true, detail: "Full on-premises option" }
+        competitor: { supported: true, detail: "On-premises deployment" }
+      - name: "Cloud Deployment"
+        log360: { supported: true, detail: "Cloud & hybrid options" }
+        competitor: { supported: true, detail: "Cloud deployment available" }
+      - name: "EPS Scalability"
+        log360: { supported: true, detail: "Up to 25,000 EPS per collector" }
+        competitor: { supported: true, detail: "Scalable with distributed setup" }
+
+pricing:
+  log360:
+    model: "Perpetual + Annual Subscription"
+    tiers:
+      - name: "Free Edition"
+        eps: "Up to 25 workstations"
+        annual_cost: "$0"
+        features: ["Basic log management", "5 log sources", "Limited reports"]
+      - name: "Standard"
+        eps: "Up to 500 EPS"
+        annual_cost: "$2,495/year"
+        features: ["Log management", "AD auditing", "File integrity monitoring", "500 log sources"]
+      - name: "Professional"
+        eps: "Up to 2,000 EPS"
+        annual_cost: "$5,995/year"
+        features: ["Everything in Standard", "UEBA", "Threat intelligence", "SOAR", "1000+ log sources"]
+      - name: "Enterprise"
+        eps: "Unlimited EPS"
+        annual_cost: "Custom pricing"
+        features: ["Everything in Professional", "DLP", "CASB", "Multi-tenancy", "Dedicated support"]
+    notes:
+      - "Transparent pricing published on website"
+      - "No hidden per-GB or per-node charges"
+      - "Perpetual license option available"
+      - "Free 30-day trial with full features"
+  competitor:
+    model: "Subscription (node-based)"
+    tiers:
+      - name: "Base Platform"
+        eps: "Varies"
+        annual_cost: "Custom quote required"
+        features: ["Core SIEM", "Basic correlation", "Standard connectors"]
+      - name: "Advanced Analytics Add-on"
+        eps: "Varies"
+        annual_cost: "Additional cost"
+        features: ["UEBA", "Behavioral analytics"]
+      - name: "Enterprise"
+        eps: "Varies"
+        annual_cost: "Custom quote required"
+        features: ["Full platform", "Premium support", "Professional services"]
+    notes:
+      - "Pricing not publicly available"
+      - "Per-node licensing can escalate costs"
+      - "Professional services often required for deployment"
+      - "OpenText acquisition has created pricing uncertainty"
+
+pricing_comparison_summary:
+  log360_advantage: >
+    Log360 offers transparent, published pricing starting at $2,495/year
+    with no hidden per-GB charges. Perpetual license option reduces long-term TCO.
+  competitor_disadvantage: >
+    Sentinel requires custom quotes with node-based licensing that can
+    escalate quickly. Post-acquisition pricing uncertainty adds risk.
+
+strengths:
+  log360:
+    - "Integrated DLP and CASB in a single platform"
+    - "Transparent and competitive pricing"
+    - "1000+ pre-built reports and 750+ log source support"
+    - "Built-in SOAR with automated incident response"
+    - "Native MITRE ATT&CK framework mapping"
+    - "Comprehensive Active Directory auditing"
+  competitor:
+    - "Strong scalability for very large environments"
+    - "Mature platform with long market presence"
+    - "Flexible deployment architecture"
+
+weaknesses:
+  competitor:
+    - "No integrated DLP or CASB capabilities"
+    - "Opaque pricing model"
+    - "Limited MITRE ATT&CK mapping"
+    - "OpenText acquisition creating market uncertainty"
+    - "Requires additional products for full security coverage"
