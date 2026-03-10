@@ -1,0 +1,28 @@
+log360:
+  name: "ManageEngine Log360"
+  short_name: "Log360"
+  vendor: "ManageEngine"
+  tagline: "Comprehensive SIEM with integrated DLP and CASB"
+  gartner_product_url: "/market/security-information-event-management/vendor/manageengine/product/log360"
+
+competitors:
+  micro_focus_sentinel:
+    name: "Micro Focus Sentinel"
+    short_name: "Sentinel"
+    vendor: "Micro Focus (OpenText)"
+    gartner_product_url: "/market/security-information-event-management/vendor/micro-focus/product/sentinel"
+  splunk:
+    name: "Splunk Enterprise Security"
+    short_name: "Splunk ES"
+    vendor: "Splunk (Cisco)"
+    gartner_product_url: "/market/security-information-event-management/vendor/splunk/product/splunk-enterprise-security"
+  ibm_qradar:
+    name: "IBM QRadar"
+    short_name: "QRadar"
+    vendor: "IBM"
+    gartner_product_url: "/market/security-information-event-management/vendor/ibm/product/ibm-qradar-siem"
+  microsoft_sentinel:
+    name: "Microsoft Sentinel"
+    short_name: "MS Sentinel"
+    vendor: "Microsoft"
+    gartner_product_url: "/market/security-information-event-management/vendor/microsoft/product/microsoft-sentinel"
